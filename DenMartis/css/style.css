@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Cera Pro Regular', sans-serif;
+}
+
+body {
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    background:#D4DD84;
+    max-height: 100%;
+    margin-bottom: 50px;
+}
+
+.text {
+    font-family: 'Cera Pro Regular', sans-serif;
+    color:rgb(71, 61, 138);
+    margin: 0;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.title-text {
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.menu {
+    margin-top: 10%;
+}
+.nav-menu {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.nav-menu a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(41, 34, 107);
+}
+li {
+    list-style-type: none;
+    font-size: 25px;
+}
+li a {
+    font-family: 'Cera Pro Regular', sans-serif;
+    transition: 1.2s;
+    transform:scale(2);
+}
+li a:hover {
+    transition:  1.2s;
+    font-size: 30px;
+    color: #fff;
+}
+.hidden-block {
+    display: none;
+    margin: 0 auto;
+}
+.contacts {
+    display: none;
+    margin: 0 auto;
+}
+.contacts-list {
+    padding: 0;
+}
+/*Отступы у контактов*/
+.contact-info {
+    padding-top: 10px;
+}
+.text-about-me {
+    text-align:left;
+    font-size: 20px;
+    color: rgb(41, 34, 107);
+}
+.ready-events {
+    padding-top: 15%;
+    font-size: 20px;
+}
+.event-host {
+    font-size: 30px;
+}
+.image {
+    margin: auto;
+    display: block;
+}
+
+/*main*/
+main {
+background:#D4DD84;
+margin: 0 auto;
+height: 500px;
+max-width: 1440px;
+max-height: 100%;
+}
+.collab {
+text-align: center;
+padding: 20px 0 20px;
+font-size: 30px;
+}
+.slider {
+text-align: center;
+margin-top: 2%;
+}
+
+/*footer*/
+
+footer {
+    background: url(../image/den_for_you.jpg) no-repeat 50% 50%;
+    height: 900px;
+    margin-top: 50px;
+}
+.submission_form {
+    width: 100%;
+}
+.text_footer {
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    padding-bottom: 5%;
+}
+form {
+    text-align: center;
+    padding-top: 30% ;
+}
+
+input[type='text'] {
+    width: 485px;
+    height: 50px;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    outline: none;
+}
+button[type='submit'] {
+    width: 200px;
+    height: 35px;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: green;
+}
+.developer_helpers {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.developer {
+    color: rgb(15, 6, 97);
+}

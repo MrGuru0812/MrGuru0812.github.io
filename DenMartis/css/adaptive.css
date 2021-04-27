@@ -1,0 +1,209 @@
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .title-text {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .event-host {
+        font-size: 20px;
+    }
+    .text-container {
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-about-me {
+        text-align-last: center;
+    }
+    main {
+        height: 225px;
+    }
+    .collab {
+        font-size: 20px;
+        padding: 0;
+    }
+    .slide iframe {
+        width: 280px;
+        height: 158px;
+    }
+    footer {
+        height: 700px;
+    }
+    .text_foot {
+        font-size: 25px;
+    }
+    .text_footer {
+        font-size: 27px;
+    }
+    form {
+        padding-top: 90%;
+    }
+    input[type='text'] {
+        width: 250px;
+        height: 50px;
+        font-family: 'Cera Pro Regular', sans-serif;
+        font-size: 18px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        outline: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+    .title-text {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .event-host {
+        font-size: 20px;
+    }
+    .text-container {
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-about-me {
+        text-align-last: center;
+    }
+    main {
+        height: 225px;
+    }
+    .collab {
+        font-size: 20px;
+        padding: 0;
+    }
+    .slide iframe {
+        width: 280px;
+        height: 158px;
+    }
+    footer {
+        height: 700px;
+    }
+    .text_foot {
+        font-size: 25px;
+    }
+    .text_footer {
+        font-size: 27px;
+    }
+    form {
+        padding-top: 43%;
+    }
+    input[type='text'] {
+        width: 250px;
+        height: 50px;
+        font-family: 'Cera Pro Regular', sans-serif;
+        font-size: 18px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        outline: none;
+    }
+}
+@media only screen and (max-width: 568px) {
+    .container {
+        flex-direction: column;
+    }
+    .title-text {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .event-host {
+        font-size: 20px;
+    }
+    .text-container {
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-about-me {
+        text-align-last: center;
+    }
+    main {
+        height: 225px;
+    }
+    .collab {
+        font-size: 20px;
+        padding: 0;
+    }
+    .slide iframe {
+        width: 280px;
+        height: 158px;
+    }
+    footer {
+        height: 700px;
+    }
+    .text_foot {
+        font-size: 25px;
+    }
+    .text_footer {
+        font-size: 27px;
+    }
+    form {
+        padding-top: 58%;
+    }
+    input[type='text'] {
+        width: 350px;
+        height: 50px;
+        font-family: 'Cera Pro Regular', sans-serif;
+        font-size: 18px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        outline: none;
+    }
+}
+@media only screen and (max-width: 512px) {
+    .container {
+        flex-direction: column;
+    }
+    .title-text {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .event-host {
+        font-size: 20px;
+    }
+    .text-container {
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-about-me {
+        text-align-last: center;
+    }
+    main {
+        height: 225px;
+    }
+    .collab {
+        font-size: 20px;
+        padding: 0;
+    }
+    .slide iframe {
+        width: 280px;
+        height: 158px;
+    }
+    footer {
+        height: 700px;
+    }
+    .text_foot {
+        font-size: 25px;
+    }
+    .text_footer {
+        font-size: 27px;
+    }
+    form {
+        padding-top: 58%;
+    }
+    input[type='text'] {
+        width: 350px;
+        height: 50px;
+        font-family: 'Cera Pro Regular', sans-serif;
+        font-size: 18px;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        outline: none;
+    }
+}
